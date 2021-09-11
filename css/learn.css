@@ -1,0 +1,85 @@
+    table {
+            font-family: arial, sans-serif;
+            font-size: 130px;
+            table-layout: fixed;
+            width: 70%;
+        }
+
+        td {
+            border: 5px solid #ffffff;
+            text-align: center;
+            padding: 8px;
+        }
+
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+
+        .main-content {
+            direction: rtl; /*Right to Left*/
+        }
+
+        #transliteration {
+            font-size: 20px;
+            font-weight:bold;
+        }
+
+        .curved-edges {
+            border: 1px solid #ffffff;
+            border-radius: 25px;
+            background-color: #D3D3D3;
+
+        }
+
+        .curved-edges:hover {
+                cursor: pointer;
+                box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+                transform: translateY(-0.1rem);
+                transition: transform 150ms;
+
+        }
+
+        nav {
+            background-color: #D3D3D3;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 5em;
+        }
+
+
+        .content{
+            padding-top: 5%;
+            text-align: center;
+            text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                         0px 8px 13px rgba(0,0,0,0.1),
+                         0px 18px 23px rgba(0,0,0,0.1);
+        }
+
+        hr {
+            width: 70%;
+            border-top: 1px solid #f8f8f8;
+            border-bottom: 1px solid black;
+        }
+
+        .button-style {
+            background-color: #D3D3D3;
+        }
+
+        .button-style:hover {
+            cursor: pointer;
+            box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+            transform: translateY(-0.1rem);
+            transition: transform 150ms;
+        }
+
+        .nav-style {
+            background-color: #D3D3D3;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <title>Home</title>
+ <link rel="stylesheet" href="css/index.css"/>
+ <style>
+          body {
+        position: relative;
+        z-index: 0;
+    }
+
+
+    body::after {
+        background: url(images/istockphoto-614630342-612x612.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        content: "";
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;   
+    }
+ </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-style">
+        <a class="navbar-brand" href="#">Arabic 4 U</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="learn.html">Learn<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quiz.html">Quiz</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <div class="content">
+            <h1>Arabic 4 U</h1>
+            <br />
+            <h3>Have you always wanted to learn the Arabic language?</h3>
+            <h3>Look no further and begin right here with the Arabic alphabet!</h3>
+            <hr>
+            <button type="button" class="btn button-style" onclick="window.location.href='learn.html'" >Let's get started!</button>
+        </div>
+</body>
+</html>
